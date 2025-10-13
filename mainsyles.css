@@ -1,11 +1,20 @@
 .main{
+  font-family: 'Lucida Sans';
   display: flex;
   padding-left: 10px;
   gap: 15px;
 }
 .nav{
+  font-family: 'Lucida Sans';
   display: flex;
   gap: 5px;
   font-size: 30px;
   padding-bottom: 10px;
+}
+.abt{
+  font-family: 'Lucida Sans';
+  padding: 20px;
+}
+.hed{
+  font-family: 'Lucida Sans';
 }
