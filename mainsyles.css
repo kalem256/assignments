@@ -1,0 +1,11 @@
+.main{
+  display: flex;
+  padding-left: 10px;
+  gap: 15px;
+}
+.nav{
+  display: flex;
+  gap: 5px;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
