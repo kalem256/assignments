@@ -1,20 +1,127 @@
+body{
+  background-image: url(nat.jpg);
+  background-position: fixed;
+  margin: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.man{
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+
+}
 .main{
   font-family: 'Lucida Sans';
   display: flex;
-  padding-left: 10px;
-  gap: 15px;
+}
+.img{
+  border-radius: 10%;
+  height: 50%;
+  margin-left: 30%;
+}
+.img1{
+  margin-top: 5%;
+  border-radius: 10%;
+  height: 35%;
+  width: 29%;
+  margin-left: 35%;
+
+}
+.img2{
+  height: 20%;
+  width: 20%;
+}
+.nav1{
+  margin-top: 0%;
+  display: flex;
+  gap: 50%;
+  background-color: rgba(0, 191, 255, 0.166);
+  padding-right: 25%;
 }
 .nav{
   font-family: 'Lucida Sans';
   display: flex;
-  gap: 5px;
-  font-size: 30px;
-  padding-bottom: 10px;
+  list-style: none;
+  text-decoration: none;
+  object-position: fixed;
+  gap: 15%;
+  font-size: 120%;
+  text-align: center;
+  padding-right: 0%;
+  padding-left: 10%;
+  color: white;
+  font-weight: bold;  
+  
+}
+.al:hover{
+  color: rgba(30, 216, 241, 0.822);
+  background-color: white;
+}
+.al:active{
+  color: rgba(30, 216, 241, 0.266);
 }
 .abt{
   font-family: 'Lucida Sans';
-  padding: 20px;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.353);
+}
+.tt{
+  text-align: center;
 }
 .hed{
   font-family: 'Lucida Sans';
+}
+.txtsec{
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: 50%;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.262);
+  border-radius: 5%;
+}
+.otd{
+  margin-top: -10%;
+  margin-bottom: 10%;
+  font-family: 'Lucida Sans';
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  border-radius: 2%;
+  background-color: rgba(255, 255, 255, 0.182);
+}
+.al{
+  color: white;
+  margin-top: 17%;
+  margin-bottom: 17%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+  padding-top: 8%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 100%;
+  background-color: rgba(0, 191, 255, 0.858);
+  border: none;
+  border-radius: 35%;
+  height: 35%;
+  width: 250%;
+  margin-right: 10%;
+}
+.foot{
+  background-color: rgb(22, 128, 249);
+  text-align: center;
+  padding-left: 2%;
+}
+.ftext{
+  list-style: none;
+  text-align: left;
 }
