@@ -6,12 +6,13 @@
   <title>Home</title>
   <link rel="stylesheet" href="mainsyles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 <header>
   <nav class="navbar fixed-top" style="background-color: rgb(0, 145, 255);">
   <div class="container-fluid">
-    <a class="navbar-brand" >De Karls</a>
+    <a class="navbar-brand" >De Karlz</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +43,14 @@
     <img src="shot.png" alt="" class="img" title="Eng. Karlz">
   </div>
   <div class="txtsec">
-  <p>👤: <strong>KALEMERA GODWIN</strong><br>Reg no: <strong>25/BSE/BU/R/0007</strong></p>
+    <article class="icn">
+    <div class="icons">
+    <i class="fas fa-user"></i>
+    </div>
+    <div>
+    <p><strong>KALEMERA GODWIN</strong><br>Reg no: <strong>25/BSE/BU/R/0007</strong></p>
+    </div>
+  </article>
   <p><strong>Description:</strong> <br>
     I am a student at Bugema University pursuing  a Bachelor of science in 
     software engineering.
@@ -56,14 +64,22 @@
       <p>I am the CEO of <strong>GARTS ENGINEERING SOLUTIONS</strong></p>
       <p>A company that currently deals in Metal Fabrication and String Art</p>
     </div>
-    <ul>
+    <ul class="lis">
       <div>
-        <span uk-icon="icon: whatsapp"></span>
-      <l1>☎️ <strong>0705680442</strong></l1> <br>
-      <l1>Email: <strong>gartsengineeringsolutions@gmail.com</strong></l1> <br>
+        <div class="icno">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+      <li><strong>0705680442</strong></li>
+        <div class="icno">
+        <i class="fas fa-envelope"></i>
+        </div>
+      <li><strong>gartsengineeringsolutions@gmail.com</strong></li>
       </div>
       <div>
-      <l1>Located at <strong>Bugema University Vocational School</strong></l1>
+        <div class="icno">
+        <i class="fas fa-location-dot"></i>
+        </div>
+      <li> <strong>Bugema University Vocational School</strong></li>
       </div>
     </ul>
   </section>
@@ -71,9 +87,23 @@
 </main>
   <footer class="foot">
     <p><strong>Integrity</strong></p>
+    <h6>Contact me</h6>
+  <div class="social-icons">
+  <a href="https://x.com/godwinkalemera" target="_blank" rel="noopener noreferrer" aria-label="X">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://wa.me/message/TF6U7JX3RS5QL1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.tiktok.com/@kalem256" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+    <i class="fab fa-tiktok"></i>
+  </a>
+  <a href="https://www.instagram.com/karlz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  </div>
     <P>&copy;Eng. Karlz</P>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <script src="uikit/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
