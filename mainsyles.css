@@ -90,7 +90,7 @@ body{
   padding-left: 5%;
   padding-right: 5%;
   border-radius: 5%;
-  background-color: rgba(255, 255, 255, 0.353);
+  background-color: rgba(255, 255, 255, 0.182);
   color: rgb(0, 145, 255);
 }
 .tt{
@@ -140,7 +140,6 @@ body{
   align-items: center;
   padding-top: 0;
   margin-left: 43.05%;
-  padding-right: 4%;
   transition: transform 0.15s;
 }
 .social-icons a { 
